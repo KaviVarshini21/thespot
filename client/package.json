@@ -1,7 +1,7 @@
 {
   "homepage": "http://KaviVarshini21.github.io/thespot",
   "name": "client",
-  "proxy": "http://localhost:8080/",
+  "proxy": "https://spot-l2eh.onrender.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
