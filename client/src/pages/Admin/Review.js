@@ -27,7 +27,7 @@ const Review = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.put("/api/v1/auth/getreview", {
+      const { data } = await axios.put("https://thespot-42.onrender.com/api/v1/auth/getreview", {
         name,
         email,
         feedback,

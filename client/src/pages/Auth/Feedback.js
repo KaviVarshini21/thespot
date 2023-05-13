@@ -16,7 +16,7 @@ const Feedback = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("/api/v1/auth/feedback", {
+      const res = await axios.post("https://thespot-42.onrender.com/api/v1/auth/feedback", {
         name,
         email,
         phone,
